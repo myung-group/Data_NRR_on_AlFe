@@ -1,1 +1,10 @@
-# Data_NRR_on_AlFe
+This repository accompanies the paper " **Unveiling synergy: Impurity-driven spontaneous nitrate-to-ammonia conversion on commercial alumininum** " by Seon Young Hwang, Gi Beom Sim, Ju Young Maeng, Gaeun Yun, Choong Kyun Rhee, Sunghak Park, Chang Woo Myung, Youngku Sohn.
+* ```Data/``` contains inputs and outputs of 1) geometry relaxation and 2) vibrational frequency calculation of nitrate reduction reaction intermediates.
+  * Calculated data file ```NRR_on_AlFe.xlsx``` for Gibbs free energy exists in ```Data/```.
+
+* ```Figures/``` contains figures of the paper that obtained from ```Data/```.
+* ```Scripts/``` contains Jupyter notebook and Python scripts that can reproduce figures.
+  * Zero-point energy, entropy, and enthalpy corrections can be calculated using the Python scripts ```Scripts/Gibbs_energy_profile/calculate_*.py``` at the directory ```Data/geometry_relaxation_and_zpe/.../zpe/```
+
+## Paper abstract
+Spontaneous redox reactions involving aluminum (Al) are widely recognized for their ability to generate hydrogen and reduce nitrate species under ambient conditions. However, the underlying mechanisms—particularly the role of surface dynamics and trace impurities—remain poorly understood. Here we uncover that the selective conversion of nitrate to ammonia over commercial Al arises not from pure Al itself, but from trace iron (Fe) impurities embedded within its matrix. Combining kinetic measurements, surface characterizations, and density functional theory calculations, we demonstrate that Al functions primarily as a sacrificial electron source, while dynamically exposed Fe domains act as redox mediators and catalytic centers for nitrate adsorption and N–O bond activation. Despite similar intermediate binding strengths on Al and Fe, the local interfacial restructuring during spontaneous Al oxidation modulates charge density and facilitates multi-electron nitrate reduction at Fe-rich zones. This impurity-mediated behavior offers a mechanistic rationale for the superior reactivity of commercial Al compared to ultrapure Al, and establishes a new conceptual framework for designing spontaneous, energy-free nitrogen conversion systems via interfacial impurity engineering.

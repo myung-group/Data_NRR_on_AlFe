@@ -1,0 +1,32 @@
+ALGO = A
+ENCUT =  600      
+EDIFF = 1e-6      
+PREC = Accurate
+ISMEAR = 0
+
+IBRION = 5
+POTIM = 0.015
+NFREE = 2
+ISYM = 0
+
+LCHARG = .FALSE.
+LWAVE = .FALSE.
+LREAL = AUTO
+
+NSW = 1000
+NELM = 2000
+SIGMA = 0.01  #
+ISPIN = 2
+
+## BEEF-vdW
+GGA = BF 
+LUSE_VDW = .TRUE. 
+Zab_VDW = -1.8867
+LBEEFENS=.TRUE.
+
+LDIPOL = .TRUE.
+IDIPOL = 3       
+DIPOL = 0.5 0.5 0.5
+
+NCORE = 16
+KPAR = 4

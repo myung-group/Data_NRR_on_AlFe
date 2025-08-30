@@ -1,4 +1,4 @@
-This repository accompanies the paper " **Unveiling synergy: Impurity-driven spontaneous nitrate-to-ammonia conversion on commercial aluminium** " by Seon Young Hwang, Gi Beom Sim, Ju Young Maeng, Gaeun Yun, Choong Kyun Rhee, Sunghak Park, Chang Woo Myung, Youngku Sohn.
+This repository accompanies the paper " **Unveiling synergy: Impurity-driven spontaneous nitrate-to-ammonia conversion on commercial aluminium** " by Seon Young Hwang, Gi Beom Sim, Ju Young Maeng, Gaeun Yun, Choong Kyun Rhee, Sunghak Park, Soohaeng Yoo Willow, Chang Woo Myung, Youngku Sohn.
 * ```Data/``` contains inputs and outputs of 1) geometry relaxation and 2) vibrational frequency calculation of nitrate reduction reaction intermediates.
   * Calculated data file ```NRR_on_AlFe.xlsx``` for Gibbs free energy exists in ```Data/```.
 
